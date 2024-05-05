@@ -1,0 +1,223 @@
+body {
+			font-family: 'Roboto Flex';
+		}
+		.header {
+			position: relative;
+			width: 100%;
+			height: 100px;
+			display: flex;
+			align-items: center;
+			word-break: break-word;
+		}
+		#logo {
+			display: flex;
+			width: 100px;
+			height: 100%;
+			margin-left: 56px;
+			margin-right: 20px;
+		}
+		#name {
+			display: flex;
+			width: 200px;
+			height: 50%;
+			font-size: 40px;
+			font-weight: medium;
+			align-items: center;
+			justify-content: center;
+			align-self: left;
+		}
+		#menu {
+			position: absolute;
+			right: 0;
+			top: 0;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			width: 150px;
+			height: 100%;
+			font-weight: Regular;
+			background-color: rgb(72, 98, 237, 1.0);
+			color: white;
+		}
+		.burger-menu {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 150px;
+			height: 100%;
+			cursor: pointer;
+		}
+		.burger-menu div {
+			background: rgb(72, 98, 237, 1.0);
+		}
+		.menu-items {
+			display: none;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			width: 150px;
+			height: 300px;
+			position: absolute;
+			top: 100%;
+			background: darkblue;
+		}
+		.menu-items a {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 150px;
+			height: 100px;
+			text-decoration: none;
+			color: white;
+		}
+		#menu:hover .menu-items {
+			display: flex;
+		}
+		.men {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 150px;
+			height: 100px;
+		}
+		.footer {
+			display: flex;
+			flex-flow: column;
+			width: 100%;
+			height: 130px;
+			align-items: center;
+			justify-content: center;
+			word-break: break-word;
+			background-color: rgb(72, 98, 237, 1.0);
+		}
+		#info {
+			display: flex;
+			justify-content: space-between;
+			margin-top: 20px;
+			margin-bottom: px;
+			width: 374px;
+		}
+		#info>div {
+			color: white;
+			border-color: black;
+		}
+		#ref {
+			display: flex;
+			width: 320px;
+			justify-content: space-between;
+		}
+		.refimg {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 62px;
+			height: 48px;
+		}
+		.fotimg1 {
+			width: 48px;
+			height: 48px;
+			background-color: white;
+		}
+		.fotimg2 {
+			width: 48px;
+			height: 48px;
+			border-radius: px;
+			background-color: white;
+		}
+		.fotimg3 {
+			width: 48px;
+			height: 48px;
+			border-radius: 9;
+			border-radius: 9px;
+			background-color: white;
+		}
+		.main {
+			display: flex;
+			flex-flow: row wrap;
+			align-items: center;
+			width: 78%;
+			justify-content: space-between;
+			margin-left: 11.5%;
+		}
+		.item {
+			flex: 0 0 25%;
+			margin: 5px;
+			display: flex;
+			flex-flow: column;
+			align-items: center;
+			word-break: break-word;
+			width: 30.7%;
+			height: 360px;
+
+		}
+		.item2 {
+			margin-right: 3.15%;
+		}
+		.item_img {
+			width: 83.3%;
+			height: 190px;
+			margin-top: 5.5%;
+		}
+		.inf {
+			width: 83.3%;
+			height: 100px;
+			display: flex;
+			justify-content: center;
+			word-break: break-word;
+			font-size: 20px;
+		}
+
+		.price {
+			width: 60%;
+			height: 35px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 25px;
+			font-weight: bold;
+		}
+		#catalog {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			height: 69px;
+			background-color: rgb(72, 98, 237, 1.0);
+		}
+		.catalog-item {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 206px;
+			height: 100%;
+			font-size: 20px;
+			font-weight: 600;
+			color: white;
+		}
+		.item_img {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.item_img>img {
+			width: 50%;
+		}
+		.catalog-item1 {
+			margin-right: 30px;
+		}
+		#img8 {
+			width: 40%;
+		}
+
+		.name {
+			display: flex;
+			width: 78%;
+			font-size: 40px;
+			font-weight: medium;
+			border-bottom: 2px solid;
+			margin-left: 11.5%;
+			margin-bottom: 30px;
+			padding-bottom: 21px;
+			padding-top: 10px;
+		}

@@ -1,0 +1,163 @@
+body {
+	font-family: 'Roboto Flex';
+}
+
+.header {
+	position: relative;
+	display: flex;
+	align-items: center;
+	word-break: break-word;
+	margin-bottom: 10px;
+	border-bottom: 2px solid;
+}
+
+#logo {
+	display: flex;
+}
+
+#name {
+	display: flex;
+	font-weight: medium;
+	align-items: center;
+	justify-content: center;
+	align-self: left;
+}
+
+#menu {
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-weight: Regular;
+	background-color: rgb(72, 98, 237, 1.0);
+	color: white;
+}
+
+.burger-menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.burger-menu div {
+	background: rgb(72, 98, 237, 1.0);
+}
+
+.menu-items {
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.menu-items a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: rgb(72, 98, 237, 1.0);
+}
+
+#menu:hover .menu-items {
+	display: flex;
+}
+
+.men {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	word-break: break-word;
+	background-color: rgb(72, 98, 237, 1.0);
+}
+
+#info {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: px;
+}
+
+#info>div {
+	color: white;
+	border-color: black;
+}
+
+#ref {
+	display: flex;
+	justify-content: space-between;
+}
+
+.refimg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fotimg1 {
+	background-color: white;
+}
+
+.fotimg2 {
+	background-color: white;
+}
+
+.fotimg3 {
+	background-color: white;
+}
+
+.main {
+	display: flex;
+
+	align-items: flex-start;
+}
+
+.mainimg {
+	display: flex;
+	justify-content: center;
+	background-size: cover;
+}
+
+.text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+#back1 {
+	background-image: url(https://5element.by/img/Info_articles/Bezprovodnye_naushniki/bezprovod_naushniki.jpg);
+	background-position: 580px center;
+}
+
+#back2 {
+	background-image: url(https://mychooz.com/wp-content/uploads/2021/05/img_4227.jpg);
+	background-position: 640px center;
+}
+
+#back3 {
+	background-image: url(https://metaratings.by/storage/images/56/d2/56d2fdac68564a3a7376e36febf340f3.jpg);
+}
+
+#back4 {
+	background-image: url(https://s6.stc.all.kpcdn.net/expert/wp-content/uploads/2021/09/oblozhzhzhka-dlya-vordpress-3-960x540.jpg);
+}
+
+#back5 {
+	background-image: url(https://cameralabs.org/media/k2/items/cache/1991aea754ea41cfedd188ed30096c8c_L.jpg);
+}
+
+#back6 {
+	background-image: url(https://fototips.ru/wp-content/uploads/2011/11/camera_lens.jpg);
+}
