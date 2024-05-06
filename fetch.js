@@ -24,7 +24,6 @@ function loadXML(url) {//url - ссылка на xml файл(принимает
 function addItemsToDOM(items) {
     const itemsList = document.querySelector('.main');//создаём переменную хранящая элемент
     // Очищаем список перед добавлением новых элементов
-    // itemsList.innerHTML = '';
     items.forEach(item => {//цикл переберающий элементы массива
         const itemDiv = document.createElement('div');//создаём контейнер для товара
         itemDiv.className = 'item item2';//выдаём класс контейнеру
@@ -37,15 +36,11 @@ function addItemsToDOM(items) {
         `;//заполняем контейнер информацией
         
         itemDiv.onclick = function() {//(опционально) вызов функции при нажатии на контейнер
-            // loadItemDetails('/Printinvest/catalog/items/items.xml', item.name);
         };
         itemsList.appendChild(itemDiv);//добовляем в наш .items-list созданный div
     });
 }
-// document.addEventListener('DOMContentLoaded', function(){ 
-// loadXML("items.xml");
-// addItemsToDOM(items);
-// })
+
 document.addEventListener('DOMContentLoaded', function () {
 
     loadXML("items.xml").then(() => {
